@@ -34,7 +34,7 @@ body{
     background: blueviolet;
 }
 
-.letter, .current-letters{
+.letter, .current-letters, .current-letter{
     width: 20%;
     height: 100%;
     border: 3px solid white;
@@ -43,8 +43,9 @@ body{
     align-items: center;
     margin: 0 1%;
     border-radius: 5px;
+    max-height: 65px;
 }
 
-.current-letters{
+.current-letter{
     background: greenyellow;
 }
